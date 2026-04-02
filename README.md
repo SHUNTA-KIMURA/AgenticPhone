@@ -108,14 +108,6 @@ Speech → Text → LLM reasoning → Action
 
 ---
 
-## ⚠️ Limitations
-
-- Whisper errors can still affect downstream processing
-- Multi-speaker diarization is not fully solved
-- Real-time latency depends on LLM inference
-
----
-
 ## 🔮 Future Work
 
 - Speaker diarization
