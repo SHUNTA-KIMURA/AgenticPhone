@@ -28,10 +28,10 @@ To address this, AgenticPhone integrates **few-shot prompting, self-refinement, 
 
 #### Example:
 
-A: Let's meet tomorrow at 3pm
-B: Sounds good
-A: Actually, cancel that
-A: Let's do Friday instead
+A: Let's meet tomorrow at 3pm  
+B: Sounds good  
+A: Actually, cancel that  
+A: Let's do Friday instead  
 
 
 → The system correctly registers **only the final decision (Friday)**
@@ -67,17 +67,17 @@ This is a key advantage of using LLMs:
 ## 🔄 Pipeline
 
 
-Audio (Client A/B)
-↓
-Speech-to-Text (Whisper)
-↓
-Few-shot Prompting + Self-Refinement (LLM)
-↓
-Dialogue Understanding (LLM)
-↓
-Information Extraction (LLM)
-↓
-Google Calendar API
+Audio (Client A/B)  
+↓  
+Speech-to-Text (Whisper)  
+↓  
+Few-shot Prompting + Self-Refinement (LLM)  
+↓  
+Dialogue Understanding (LLM)  
+↓  
+Information Extraction (LLM)  
+↓  
+Google Calendar API  
 
 
 ---
