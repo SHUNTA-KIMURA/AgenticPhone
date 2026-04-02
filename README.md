@@ -108,17 +108,6 @@ Speech → Text → LLM reasoning → Action
 
 ---
 
-## 🔮 Future Work
-
-- Speaker diarization
-- Fully real-time streaming pipeline
-- Personalization of user preferences
-- Multi-agent coordination
-
----
-
 ## 📌 Summary
 
-AgenticPhone demonstrates that:
-
-> Integrating LLMs into communication systems enables **intent-aware, action-oriented VoIP**, going beyond simple audio transmission.
+AgenticPhone demonstrates that integrating LLMs into communication systems enables **intent-aware, action-oriented VoIP**, going beyond simple audio transmission.
